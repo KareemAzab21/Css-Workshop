@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    color:white;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+nav{
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+   border:2px solid white;
+   border-radius: 1cm;
+   background-color: black;
+
+}
+
+.logo{
+    margin-left:10%;
+    background-color: black;
+}
+
+.lists{
+    margin-right: 10%;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 1cm;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px ;
+}
+.main{
+    border: 2px transparent white;
+    background-color: black;
+    border-radius: 1cm;
+    width:70%;
+    height:60%;
+    margin-top: 5%;
+}
+.image{
+    margin: 20px;
+    margin-left: 20%;
+    background-color: black;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.items{
+    border: 2px solid white;
+    border-radius: 1cm;
+    width: 17%;
+    height: 400px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+button{
+    margin-top: 3%;
+    height:50px;
+    width: 100px;
+    border-radius: 2cm;
+    background-color: red;
+}
+
+button:hover{
+    background-color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    background-color: black;
+    margin-left: 20px;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:70%;
+    border-radius: 1cm;
+}
+i{
+    background-color: black;
+    margin-right: 20px;
+}
+.social h3{
+    font-size: 30px;
+}
+@media only screen and(max-width:1220px){
+    .main{
+        width: 90%;
+    }
+}
